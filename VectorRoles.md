@@ -46,13 +46,13 @@ and
 public interface BlackBoxVector {
 
   /* The norm of the vector. */
-  double norm() const;
+  double norm();
 
   /* Rescale the vector by scalar. */
-  Vector scale(double scalar) const;
+  Vector scale(double scalar);
 
   /* Add with vector u */ 
-  Vector operator+(Vector u) const;
+  Vector operator+(Vector u);
  
 }
 ```
